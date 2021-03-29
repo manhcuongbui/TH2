@@ -1,80 +1,80 @@
 body {
-    width: 1000px;
     font-family: "Times New Roman", Times, serif;
-    font-size: 13px;
-    width: 1000px;
-    margin: 0px auto;
+    width: 100%;
 }
-    .banner {
-        width: 910px;
-        height: 160px;
-        border: 1px solid;
-        display: flex;
-        margin: auto;
-        margin-left: 1px;
-    }
-    .menu-left{
-        width: 680px;
-        height: 400px;
-        border: 1px solid;
-        margin-top: 10px;
-        float: left;
-    }
-    .menu-right{
-        height: 400px;
-        width: 220px;
-        margin-left: 10px;
-        border: 1px solid;
-        margin-top: 10px;
-        float: left;
-    }
-    .imgleft {
-        width: 250px;
-        height: 200px;
-    }
-
-    img {
-        margin: auto;
-        float: left;
-        border: 1px solid aqua;
-        width: 120px;
-        height: 90px;
-        border-radius: 3px;
-    }
+.banner{
+    width: 60%;
+    height: 120px;
+    border: 1px solid;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+.menu-left{
+    width: 680px;
+    height: 580px;
+    border: 1px solid;
+    margin-top: 1%;
+    margin-left: 20%;
+    float: left;
+    position: relative;
+}
+.menu-right{
+    height: 580px;
+    width: 14%;
+    margin-left: 1%;
+    border: 1px solid;
+    margin-top: 1%;
+    float: left;
+}
+h4{
+    clear: left;
+    color: rgb(243, 24, 24);
+    margin-left: 3%;
+}
+ul{
+    float: left;
+    line-height: 37px;
+}
+.B{
+    width: 200px;
+    height: 150px;
+    margin-left: 5%;
+    float: left;
+    border-radius:5px;
+    margin-left: 5%;
    
-    ul {
-        float: left;
-        line-height: 40px;
-    }
-    h4{
-        color: red;
-        margin-left: 3%;
-         clear: left;
-        display: block;
-    }
-    /*  css noi dung tr */
-    .footer{
-        height: 100px;
-        width: 910px;
-        border: 1px solid;
-        margin-top: 10px;
-        float: left;
-        display: flex;
+}
+
+img{
+    width: 200px;
+    height: 80px;
+    margin: auto;
+
+}
+.lienket{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color:gray;
+    color: white;
     
-    }
-    
-    .content{
-        box-sizing: border-box;
-    }
-    .lienket{
-        background-color: gray;
-        color: white;
-        width: 100%;
-        height: 40px;
-        line-height: 40px;
-        display: block;
-        text-align: center;
-    }
-    #p{
-        margin-top: top;
-       }
+}
+.quangcao{
+    color: white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: gray;
+}
+
+.footer{
+    height: 88px;
+    width: 910px;
+    border: 1px solid;
+    margin-left: 20%;
+    margin-top: 10PX;
+    float: left;
+    display: flex;
+    line-height: 90px;
+}
